@@ -1,0 +1,139 @@
+@charset "utf-8";
+/* CSS Document */
+
+<style type="text/css">
+ body {
+	 font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+
+ }
+
+	 
+
+ 
+/********** Base styles **********/
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+h1 {
+	font-size: 175%;
+	text-align: center;
+	
+}
+h2  {
+	font-size:125%;
+	text-align:center;
+	border: 1px solid black;
+	border-collapse:initial;
+	width: 28%;
+	display:inline;
+	float:right
+
+			}
+
+#lsect h2 {
+	background-color: #ccff99;
+	position:relative;
+	top: -25px;
+	right: -25px;
+}
+
+#msect h2 {
+	background-color: #73e600;
+	position:relative;
+	top: -25px;
+	right: -25px;
+}
+
+#rsect h2 {
+	background-color: #4d9900;
+	position:relative;
+	top: -25px;
+	right: -25px;
+}
+section {
+	  border: 1px solid black;
+background-color:#e0ebeb;
+	  padding:25px;
+
+}
+
+
+
+/* Simple Responsive Framework. */
+
+
+/********** Desktop **********/
+@media (min-width: 992px) {
+	
+	// section {display: inline;
+	
+	}
+	
+	#lsect {
+		width:31%;
+			  float:left;
+			  margin: 10px;
+	}
+
+	#msect {
+		width:31%;
+		float: left;
+		margin: 10px;
+	}
+		#rsect {
+		width:31%;
+		float:left;
+margin: 10px;
+		
+	}
+}
+
+
+/********** Tablet **********/
+@media (min-width: 768px) and (max-width: 991px) {
+	
+	#lsect {
+		width:47%;
+			  float:left;
+			  margin: 10px;
+	}
+
+	#msect {
+		width:47%;
+		float: left;
+		margin: 10px;
+	}
+		#rsect {
+		width:97%;
+		float:left;
+margin: 10px;
+		
+	}
+}
+
+/********** mobile **********/
+@media (max-width: 767px) {
+	
+	#lsect {
+		width:97%;
+			  float:left;
+			  margin: 10px;
+	}
+
+	#msect {
+		width:97%;
+		float: left;
+		margin: 10px;
+	}
+		#rsect {
+		width:97%;
+		float:left;
+margin: 10px;
+		
+	}
+}
+
+ </style>
+
