@@ -5,8 +5,22 @@
 
     <title>Assn 2</title>
  <style type="text/css">
-/********** Base styles **********/
+ body {
+	 font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	 background-color:#e0ebeb;
+	 diplay: block;
+	 align-content:center;
+ }
 
+	 
+
+ 
+/********** Base styles **********/
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
 h1 {
 	font-size: 175%;
 	text-align: center;
@@ -14,16 +28,71 @@ h1 {
 }
 h2  {
 	font-size:125%;
-	text-align:right;
-	padding-right:
+	text-align:center;
+	border: 1px solid black;
+	border-collapse:initial;
+	width: 28%;
+	display:inline;
+	float:right
+
+			}
+
+#lsect h2 {
+	background-color: #ccff99;
+	position:relative;
+	top: -25px;
+	right: -25px;
 }
+
+#msect h2 {
+	background-color: #73e600;
+	position:relative;
+	top: -25px;
+	right: -25px;
+}
+
+#rsect h2 {
+	background-color: #4d9900;
+	position:relative;
+	top: -25px;
+	right: -25px;
+}
+section {
+	  border: 1px solid black;
+
+	  padding:25px;
+
+}
+
+
 
 /* Simple Responsive Framework. */
 
 
 /********** Desktop **********/
 @media (min-width: 992px) {
+	
+	// section {display: inline;
+	
+	}
+	
+	#lsect {
+		width:31%;
+			  float:left;
+			  margin: 10px;
+	}
 
+	#msect {
+		width:31%;
+		float: left;
+		margin: 10px;
+	}
+		#rsect {
+		width:31%;
+		float:left;
+margin: 10px;
+		
+	}
 }
 
 
@@ -45,25 +114,26 @@ h2  {
   </head>
   <body>
  <h1>Our Menu</h1>
- <section id="lsect">
+ <div id="box2">
+  <section id="lsect">
    <div class="stitle">
      <h2>Chicken</h2>
    </div>
-   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero, ullam, obcaecati, deserunt, alias nesciunt accusantium laboriosam nemo eaque nihil quisquam enim fugit! Aspernatur, vel quidem debitis natus minima accusamus praesentium molestias odio quo saepe obcaecati tempore mollitia ut culpa consectetur rem rerum delectus hic et voluptas necessitatibus ab unde voluptate dignissimos sunt explicabo ea distinctio neque dolore dicta! Reprehenderit, est, magni soluta totam debitis natus odit itaque minus aut assumenda numquam asperiores fugit aperiam labore accusamus error et veritatis expedita modi ab qui tenetur beatae quas amet non. Facere, officia, numquam molestiae aliquam quo ea libero deleniti cum quas quisquam.</p>
+   <p>Lorem ipsum dolor sit amet, ocul dolore tente consectetur adipisicing elit. Vero, ullam, obcaecati, deserunt, alias nesciunt accusantium laboriosam nemo eaque nihil quisquam enim fugit! Aspernatur, vel quidem debitis natus minima accusamus praesentium molestias odio quo saepe obcaecati tempore mollitia ut culpa consectetur rem rerum delectus hic et voluptas necessitatibus ab unde voluptate dignissimos sunt explicabo ea distinctio neque dolore dicta! Reprehenderit, est, magni soluta totam debitis natus odit itaque minus aut assumenda numquam asperiores fugit aperiam labore accusamus error et veritatis expedita modi ab qui tenetur beatae quas amet non. Facere, officia, numquam molestiae aliquam quo ea libero deleniti cum quas quisquam.</p>
  </section>
  <section id="msect">
    <div class="stitle">
      <h2>Beef</h2>
    </div>
-   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur, quidem, provident qui cum nobis laborum voluptates sunt suscipit eum unde necessitatibus iusto quam maiores molestiae rem labore repudiandae quos illo! Natus, nesciunt explicabo et ipsa illo reiciendis unde saepe officiis quae minima rerum ratione quia nihil dignissimos magni vero sequi non earum sunt blanditiis possimus nobis aliquam culpa suscipit fuga distinctio ex vel velit recusandae maxime. Quos, culpa, dicta, neque, dolores error hic ab ea vitae possimus nostrum veritatis necessitatibus quia harum illo quas magni qui explicabo. Deserunt, nam quam facere odio recusandae enim dolor! Deleniti, iusto cum sapiente neque?</p>
+   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur, quidem, provident qui cum nobis laborum voluptates sunt suscipit eum unde necessitatibus iusto quam maiores molestiae rem labore repudiandae quos iearum sunt blanditiis llo! Natus, nesciunt explicabo et ipsa illo reiciendis unde saepe officiis quae minima rerum ratione quia nihil dignissimos magni vero sequi non earum sunt blanditiis possimus nobis aliquam culpa suscipit fuga distinctio ex vel velit recusandae maxime. Quos, culpa, dicta, neque, dolores error hic ab ea vitae possimus nostrum veritatis necessitatibus quia harum illo quas magni qui explicabo. Deserunt, nam quam facere odio recusandaeearum sunt blanditiis  enim dolor! Deleniti, iusto cum sapiente neque?</p>
  </section>
  <section id="rsect">
    <div class="stitle">
      <h2>Sushi</h2>
    </div>
-   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati, culpa sequi dolor eius quisquam quam incidunt consectetur vitae mollitia quidem et quae a aliquid. Inventore, labore, optio, deserunt, quae esse assumenda recusandae saepe consequuntur excepturi expedita quos quisquam molestias qui tenetur perspiciatis sed sapiente distinctio deleniti nesciunt aliquam debitis fugiat molestiae culpa accusantium vel nihil officia impedit possimus officiis accusamus facere rerum nam laborum fuga ut at veniam atque ducimus blanditiis illum! Optio, cupiditate, architecto, ipsam nesciunt molestiae vero adipisci magnam in nihil voluptatem placeat illo eum sequi facere voluptatibus sed porro necessitatibus ipsa numquam qui consectetur earum magni autem.</p>
+   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati, culpa sequi dolor eius quisquam quam incidunt consectetur vitae mollitia quidem et quae a aliquid. Inventore, labore, optio, deserunt, quae esse assumenda recusandae saepe consequuntur excepturi expedita quos quisquam molestias qui tenetur perspiciatis sed sapiente distinctio deleniti nesciunt aliquam debitis fugiat molestiae culpa accusantium vel nihil officia impedit possimus officiis accusamus facere rerum nam laborum fuga ut at veniam atque ducimus blanditiis illum! Optio, cupiditate, architecto, ipsam nesciunt molestiae vero adipisci magnam in nihil voluptatem placeat illo eum sequi facere voluptatibus sed porro necessitatibus ipsa numquam </p>
  </section>
- 
+ </div>
 
   </body>
 </html>
