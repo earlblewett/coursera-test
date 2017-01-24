@@ -1,0 +1,85 @@
+//*elb styles for week3*/
+body {
+  font-size: 16px;
+  color: #000000;
+  background-color: #D3D3D3;
+  font-family: 'Oxygen', sans-serif;
+}
+}
+/*.row {
+  .center-block {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+}*/
+
+/**************header styles*******/
+
+.navbar-brand {
+  /*padding-top: 25px;*/
+}
+.navbar-brand h1 { 
+  font-size: 1.5em;
+  color: #000000;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+#header-nav {
+  background-color: #D3D3D3;
+  border-radius: 0;
+  border: 2px;
+  border: solid;
+  color: ##000000;
+/*	border-width:3px;*/
+
+/*	border-color:##000000;*/
+}
+
+
+
+
+/**************header styles END*******/
+
+/********** Base styles **********/
+/*body {
+	text-align: center;
+}*/
+/*h2 {
+	text-align: center;
+	font-family: non-serif;
+	color: ##000000;
+}
+*/
+
+/*div {
+	background-color: #D3D3D3;
+
+}*/
+
+/********** Base styles End **********/
+
+
+
+.container {
+  background-color: #D3D3D3;
+
+/* Simple Responsive Framework. */
+
+
+/********** Desktop **********/
+@media (min-width: 992px) {}
+
+
+/********* Tablet *********/
+@media (min-width: 768px) and (max-width: 991px) {}
+
+
+/********** mobile **********/
+@media (max-width: 767px) {}
+
+</style>

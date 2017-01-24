@@ -1,0 +1,51 @@
+//*elb styles for week3*/
+@charset "utf-8";
+/* CSS Document */
+
+<style type="text/css">
+/**************header styles*******/
+.navbar {
+	border: solid;
+	border-width:3px;
+	border-radius: 0;
+	border-color:##000000 ;
+	background-color:#D3D3D3;
+	/*padding-left: 20px;
+	padding-bottom: 4px;*/
+}
+div .navbar {
+	text-align: left;
+}
+/********** Base styles **********/
+body {
+	*/text-align: center;*/
+}
+
+h2 {
+	text-align: center;
+	font-family: non-serif;
+	color: ##000000;
+}
+
+
+div {
+	background-color: #D3D3D3;
+
+}
+
+/********** Base styles End **********/
+
+/* Simple Responsive Framework. */
+
+
+/********** Desktop **********/
+@media (min-width: 992px) {}
+
+/********** Tablet **********/
+@media (min-width: 768px) and (max-width: 991px) {}
+
+
+/********** mobile **********/
+@media (max-width: 767px) {}
+
+</style>
